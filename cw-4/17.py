@@ -1,3 +1,4 @@
+from test import test
 def calculateLetters(letter, text):
     """
         Check each letter in a string ( converted to lover case )
@@ -44,8 +45,4 @@ tests = [
     }
 ]
 
-for index, test in enumerate(tests):
-    if calculateLetters(**test["input"]) == test["output"]:
-        print(f"Test {index +1} - passed")
-    else:
-        print(f"Test {index + 1} - failed")
+test(tests, calculateLetters)

@@ -1,3 +1,4 @@
+from test import test
 def calculateSumOfDigits(number):
     number = abs(number)
     sumOfDigits = 0
@@ -49,8 +50,4 @@ tests = [
     }
 ]
 
-for index, test in enumerate(tests):
-    if calculateSumOfDigits(**test["input"]) == test["output"]:
-        print(f"Test {index +1} - passed")
-    else:
-        print(f"Test {index + 1} - failed")
+test(tests, calculateSumOfDigits)

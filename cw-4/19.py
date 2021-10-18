@@ -1,3 +1,4 @@
+from test import test
 def isInRange(num, rangeStart, rangeEnd):
     return num >= rangeStart and num <= rangeEnd
 
@@ -40,8 +41,4 @@ tests = [
    
 ]
 
-for index, test in enumerate(tests):
-    if isInRange(**test["input"]) == test["output"]:
-        print(f"Test {index +1} - passed")
-    else:
-        print(f"Test {index + 1} - failed")
+test(tests, isInRange)

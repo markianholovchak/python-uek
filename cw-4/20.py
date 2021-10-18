@@ -1,3 +1,4 @@
+from test import test
 def power(x, n):
     """
     Function takes number x that is raised to the power of n using recursion
@@ -65,8 +66,4 @@ tests = [
    
 ]
 
-for index, test in enumerate(tests):
-    if power(**test["input"]) == test["output"]:
-        print(f"Test {index +1} - passed")
-    else:
-        print(f"Test {index + 1} - failed")
+test(tests, power)
