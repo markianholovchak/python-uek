@@ -14,11 +14,11 @@ print(f"The amount of PLN {amount} in coinss: \n 5 zł - {fiveCoins} \n 2 zł - 
     
 # Using loops:
 
-# fiveCoins = twoCoins = oneCoins = 0
-# while(amountCopy >= 5):
-#     fiveCoins += 1
-#     amountCopy -= 5
-# while(amountCopy >= 2):
-# fiveCoins += 1
-# amountCopy -= 2
-# oneCoins = amountCopy
+fiveCoins = twoCoins = oneCoins = 0
+while(amountCopy >= 5):
+    fiveCoins += 1
+    amountCopy -= 5
+while(amountCopy >= 2):
+    twoCoins += 1
+    amountCopy -= 2
+oneCoins = amountCopy

@@ -1,6 +1,7 @@
+LEGAL_AGE = 18
 firstPersonAge = int(input("Enter the first's person's age: "))
 secondPersonAge = int(input("Enter the second's person's age: "))
-if(firstPersonAge >= 18 and secondPersonAge >= 18):
+if(firstPersonAge >= LEGAL_AGE and secondPersonAge >= LEGAL_AGE):
     print("These people are adults! ")
 else:
-    print("Either one of these people is underage or they are both under 18")
+    print(f"Either one of these people is underage or they are both under {LEGAL_AGE}")

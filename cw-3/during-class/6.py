@@ -1,6 +1,6 @@
 SPEED_LIMIT = 130
 currentSpeed = int(input("Enter your current speed: "))
-if(currentSpeed > SPEED_LIMIT):
+if currentSpeed > SPEED_LIMIT:
     """
     Calculate the exceeding speed and print it out
     """
