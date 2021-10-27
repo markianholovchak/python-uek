@@ -6,8 +6,8 @@ for i in range(height):
         else:
             print("*", end="")
     print("")
-    
-    
+
+
 for i in range(5):
     if i in range(2, 4):
         print(i)

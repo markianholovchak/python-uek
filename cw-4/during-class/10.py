@@ -5,4 +5,3 @@ def read_number():
 firstNum = read_number()
 secondNum = read_number()
 print(f"Sum: {firstNum+secondNum}")
-15

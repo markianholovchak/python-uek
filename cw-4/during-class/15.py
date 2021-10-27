@@ -6,4 +6,4 @@ compNum = mymath.generate_number()
 if(userNum == compNum):
     print("You win!")
 else:
-    print("You loose!")
+    print("You lose!")
