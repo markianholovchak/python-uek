@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Rajesh",
+    "surname": "Doe",
+    "gender": "Male",
+    "country": "India",
+    "age": 21,
+    "married": false,
+    "univeristy": "MIT",
+    "faculty": "Informatics",
+    "hasScolarship": true,
+    "yearOfStudies": 2,
+    "points": {
+      "calculus": 5,
+      "programming": 4.5,
+      "physics": 4,
+      "PE": 5,
+      "geometry": 5
+    }
+  }
+]

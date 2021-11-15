@@ -1,0 +1,187 @@
+{
+  "table": "C",
+  "currency": "dolar amerykański",
+  "code": "USD",
+  "rates": [
+    {
+      "no": "191/C/NBP/2021",
+      "effectiveDate": "2021-10-01",
+      "bid": 3.9313,
+      "ask": 4.0107
+    },
+    {
+      "no": "192/C/NBP/2021",
+      "effectiveDate": "2021-10-04",
+      "bid": 3.9138,
+      "ask": 3.9928
+    },
+    {
+      "no": "193/C/NBP/2021",
+      "effectiveDate": "2021-10-05",
+      "bid": 3.8935,
+      "ask": 3.9721
+    },
+    {
+      "no": "194/C/NBP/2021",
+      "effectiveDate": "2021-10-06",
+      "bid": 3.9334,
+      "ask": 4.0128
+    },
+    {
+      "no": "195/C/NBP/2021",
+      "effectiveDate": "2021-10-07",
+      "bid": 3.9136,
+      "ask": 3.9926
+    },
+    {
+      "no": "196/C/NBP/2021",
+      "effectiveDate": "2021-10-08",
+      "bid": 3.9114,
+      "ask": 3.9904
+    },
+    {
+      "no": "197/C/NBP/2021",
+      "effectiveDate": "2021-10-11",
+      "bid": 3.9523,
+      "ask": 4.0321
+    },
+    {
+      "no": "198/C/NBP/2021",
+      "effectiveDate": "2021-10-12",
+      "bid": 3.9292,
+      "ask": 4.0086
+    },
+    {
+      "no": "199/C/NBP/2021",
+      "effectiveDate": "2021-10-13",
+      "bid": 3.9244,
+      "ask": 4.0036
+    },
+    {
+      "no": "200/C/NBP/2021",
+      "effectiveDate": "2021-10-14",
+      "bid": 3.9158,
+      "ask": 3.995
+    },
+    {
+      "no": "201/C/NBP/2021",
+      "effectiveDate": "2021-10-15",
+      "bid": 3.9021,
+      "ask": 3.9809
+    },
+    {
+      "no": "202/C/NBP/2021",
+      "effectiveDate": "2021-10-18",
+      "bid": 3.8976,
+      "ask": 3.9764
+    },
+    {
+      "no": "203/C/NBP/2021",
+      "effectiveDate": "2021-10-19",
+      "bid": 3.9108,
+      "ask": 3.9898
+    },
+    {
+      "no": "204/C/NBP/2021",
+      "effectiveDate": "2021-10-20",
+      "bid": 3.8892,
+      "ask": 3.9678
+    },
+    {
+      "no": "205/C/NBP/2021",
+      "effectiveDate": "2021-10-21",
+      "bid": 3.9068,
+      "ask": 3.9858
+    },
+    {
+      "no": "206/C/NBP/2021",
+      "effectiveDate": "2021-10-22",
+      "bid": 3.9129,
+      "ask": 3.9919
+    },
+    {
+      "no": "207/C/NBP/2021",
+      "effectiveDate": "2021-10-25",
+      "bid": 3.9124,
+      "ask": 3.9914
+    },
+    {
+      "no": "208/C/NBP/2021",
+      "effectiveDate": "2021-10-26",
+      "bid": 3.9339,
+      "ask": 4.0133
+    },
+    {
+      "no": "209/C/NBP/2021",
+      "effectiveDate": "2021-10-27",
+      "bid": 3.927,
+      "ask": 4.0064
+    },
+    {
+      "no": "210/C/NBP/2021",
+      "effectiveDate": "2021-10-28",
+      "bid": 3.9388,
+      "ask": 4.0184
+    },
+    {
+      "no": "211/C/NBP/2021",
+      "effectiveDate": "2021-10-29",
+      "bid": 3.9256,
+      "ask": 4.005
+    },
+    {
+      "no": "212/C/NBP/2021",
+      "effectiveDate": "2021-11-02",
+      "bid": 3.9328,
+      "ask": 4.0122
+    },
+    {
+      "no": "213/C/NBP/2021",
+      "effectiveDate": "2021-11-03",
+      "bid": 3.9355,
+      "ask": 4.0151
+    },
+    {
+      "no": "214/C/NBP/2021",
+      "effectiveDate": "2021-11-04",
+      "bid": 3.9221,
+      "ask": 4.0013
+    },
+    {
+      "no": "215/C/NBP/2021",
+      "effectiveDate": "2021-11-05",
+      "bid": 3.9437,
+      "ask": 4.0233
+    },
+    {
+      "no": "216/C/NBP/2021",
+      "effectiveDate": "2021-11-08",
+      "bid": 3.9476,
+      "ask": 4.0274
+    },
+    {
+      "no": "217/C/NBP/2021",
+      "effectiveDate": "2021-11-09",
+      "bid": 3.9295,
+      "ask": 4.0089
+    },
+    {
+      "no": "218/C/NBP/2021",
+      "effectiveDate": "2021-11-10",
+      "bid": 3.9195,
+      "ask": 3.9987
+    },
+    {
+      "no": "219/C/NBP/2021",
+      "effectiveDate": "2021-11-12",
+      "bid": 3.9496,
+      "ask": 4.0294
+    },
+    {
+      "no": "220/C/NBP/2021",
+      "effectiveDate": "2021-11-15",
+      "bid": 4.0153,
+      "ask": 4.0965
+    }
+  ]
+}
