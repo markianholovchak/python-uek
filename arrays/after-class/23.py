@@ -1,14 +1,20 @@
 import math
 from helper import array2str
 def median(arr):
-    return arr[math.floor(len(arr)/2)]
+    arr.sort()
+    if(len(arr) % 2 == 0):
+        return (arr[len(arr)// 2 - 1] + arr[len(arr) // 2]) / 2
+    return arr[len(arr)//2]
 
 tests = [
     {
-        "arr": [1,0,9,4,6]
+        "arr": [1,0,9,4,6] 
     },
     {
         "arr": [6,8,3,1,0,5,7]
+    },
+    {
+        "arr": [6,8,3,1,0,5]
     }
 ]
 for index,test in enumerate(tests):
