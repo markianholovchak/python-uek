@@ -3,4 +3,4 @@ with open('numbers.txt', 'r') as f:
     for line in f:
         totalSum+= int(line)
 
-    print(totalSum)
+print(totalSum)
