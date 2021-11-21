@@ -1,4 +1,3 @@
-content = ""
 with open('lorem.txt', "r") as f:
     content = f.read()
 

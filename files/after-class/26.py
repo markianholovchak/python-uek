@@ -1,4 +1,4 @@
 import re
 msg = "To be, or not to be, that is the question"
-
-print(len(re.findall('\w+', msg)))
+pattern = r'\w+'
+print(len(re.findall(pattern, msg)))
