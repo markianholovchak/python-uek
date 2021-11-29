@@ -1,8 +1,8 @@
 import re
 import stack
 def evaluateInput(inp):
-    numPattern = r"[0-9]"
-    signPattern = r"\+|-|=|\*|/"
+    numPattern = r"^\d+$"
+    signPattern = r"^\+|-|=|\*|/$"
     if re.match(numPattern, inp):
         stack.push(int(inp))
     elif re.match(signPattern, inp):
@@ -16,7 +16,9 @@ def evaluateInput(inp):
             secondArg = stack.pop()
             firstArg = stack.pop()
             if firstArg and secondArg:
-                stack.push(eval(f"firstArg{inp}secondArg"))
+                stack.push(eval(f"{firstArg}{inp}{secondArg}"))
+            else:
+                print("Not enough operands")
     else:
         print("Invalid input")
 
