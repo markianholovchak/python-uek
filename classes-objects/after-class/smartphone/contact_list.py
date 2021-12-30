@@ -5,4 +5,4 @@ class ContactList():
         self.contactList.append(contact)
     def displayContacts(self):
         for contact in self.contactList:
-            print(f"{contact.name} {contact.email} {contact.phone}")
+            print(f"{contact.name: <20} {contact.email: <20} {contact.phone: >20}")
